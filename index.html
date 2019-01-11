@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <script src="node_modules/jquery/jquery.js"></script>        
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+        <script src="https://code.highcharts.com/mapdata/custom/world-highres3.js"></script>
+        <script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+        <script src="node_modules/angular/angular.js"></script>
+        <script src="Js/app.js"></script>
+        <script src="Js/directives/mapdirective.js"></script>
+        <script src="Js/directives/usmap/usmap.js"></script>
+        <script src="Js/services/mapDataService.js"></script>
+        <script src="Js/controllers/mapCtrl.js"></script>
+        <script src="Js/directives/worldmap/worldmap.js"></script>
+    </head>
+    <body ng-app= "maphighmap">
+        <div ng-controller="mapCtrl">
+        <blockquote class="blockquote">
+            <p class="mb-0">{{message}}</p>
+            <footer class="blockquote-footer"> <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
+        <!-- <us-map map-options="mapOptions"></us-map> -->
+        <!-- <div world-map map-options="worldMapOptions"></div> -->
+        <world-map map-options="worldMapOptions"></world-map>
+    </div>
+    </body>
+</html>
