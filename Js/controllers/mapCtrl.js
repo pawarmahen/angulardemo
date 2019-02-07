@@ -17,10 +17,10 @@
             vm.message = "This is from controller";
             vm.mapOptions={
                 containerId:"container",
-                CountryColor: '#939598',
-                CountryHoverColor: '#4187BE',
-                DefaultColor: '#cfd1d1',
-                backgroundColor: "#f3f3f4",
+                CountryColor: '#00b5e6',
+                CountryHoverColor: '#008cb2',
+                DefaultColor: '#cfd1d0',
+                backgroundColor: "#f2f2f2",
                 countryKey:'countries/us/us-all',
                 data : ['us-tx', 'us-wv', 'us-il', 'us-nj', 'pr-3614', 'us-vt']
             };
